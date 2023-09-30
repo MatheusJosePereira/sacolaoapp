@@ -1,0 +1,30 @@
+.nav{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Titulo_nav{
+    margin-right: 500px;
+    font-size: 2.5vw;
+}
+
+.Corpo_links{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+}
+
+.nav_links{
+    padding: 20px;
+    font-size: 1.6vw;
+    color: black
+    
+}
+
+.nav_links:hover{
+    color: green;
+    transition: 0.4s all;
+}

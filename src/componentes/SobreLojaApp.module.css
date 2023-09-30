@@ -1,0 +1,62 @@
+.section_sobre{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(-45deg,#007500, #a1ffaa, #e5f9e4);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    border-radius: 20px;
+}
+
+@keyframes animate-background{
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.titulo_sobreloja{
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    margin-left: -50px;
+}
+
+.sobre_loja{
+    width: 40%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.texto_sobreloja{
+    width: 400px;
+    margin-left: 59px;
+    margin-right: 60px;
+    text-align: justify;
+    font-size: 1.4vw;
+    margin-top: 30px;
+}
+
+.imagem_loja{
+    width: 37%;
+    background-color: aqua;
+    height: 300px;
+    border-radius: 15px;
+    background-image: url(imagens/sacolao_fora2.jpg);
+    background-size: cover;
+}
+
+
+
+

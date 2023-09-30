@@ -1,0 +1,67 @@
+.SectionValores{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mao_coracao{
+    width: 80px;
+    margin-top: 40px;
+    color: #ff000f;
+    margin-left: 60px;
+}
+
+.bolsa_valores{
+    width: 80px;
+    margin-top: 60px;
+    margin-left: 60px;
+
+}
+
+.jogos{
+    width: 80px;
+    margin-top: 75px;
+    margin-left: 60px;
+
+}
+
+.olhos{
+    width: 80px;
+    margin-top: 65px;
+    margin-left: 60px;
+}
+
+.texto_valores{
+    width: 200px;
+    margin-top: 30px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 1.19vw;
+}
+
+.texto_valores2{
+    width: 200px;
+    margin-top: 30px;
+    color: rgb(34, 196, 85);
+    text-align: center;
+    font-size: 1.19vw;
+    
+}
+
+.texto_valores3{
+    width: 200px;
+    margin-top: 30px;
+    color: rgb(38, 24, 187);
+    text-align: center;
+    font-size: 1.19vw;
+    
+}
+
+.texto_valores4{
+    width: 200px;
+    margin-top: 30px;
+    color: rgb(187, 122, 24);
+    text-align: center;
+    font-size: 1.19vw;
+    
+}
